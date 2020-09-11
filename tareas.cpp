@@ -43,7 +43,7 @@ int main (){
         cout << "Ingrese el tipo de la mision R - reparar, C - clasificar y O - otros: ";
         cin >> arreglo[i].tipo;
         while(!(arreglo[i].tipo==82|| arreglo[i].tipo==67 || arreglo[i].tipo==79)){
-            cout << "ingrese una duracion valida: ";
+            cout << "ingrese una tipo valido: ";
             cin>> arreglo[i].tipo;
         }
         cin.ignore();
